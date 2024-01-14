@@ -38,22 +38,14 @@ header {
 }
 .homebut{
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #646060;
     color: #ecd5d5;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+   
 }
-/* Style for the "Sign In" button */
-.sign-in button {
-    background-color: #555;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 
 /* css for services */
