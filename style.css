@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* First Header Styles */
+header {
+    background-color: #c23b3b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Style for the logo */
+.logo img {
+    max-width: 100px;
+    border-radius: 68px
+}
+/* Style for the search bar */
+.search-bar input {
+    padding: 5px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.homebut{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ecd5d5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+/* Style for the "Sign In" button */
+.sign-in button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* css for services */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    color: #ffffff;
+}
+h2 {
+    color: #555;
+}
+p {
+    color: #777;
+}
+section {
+    margin-bottom: 30px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+.card-content {
+    padding: 15px;
+}
+.images{
+    width: 30px;
+    height: 30px;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #fff;
+   
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0f0d0d;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+.carousel-indicators li{
+    background-color: #0f0d0d;
+    height: 10PX;
+    }
