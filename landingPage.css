@@ -162,7 +162,7 @@ footer {
 }
 
 .social-icons li {
-    display: inline-block;
+    display: list-item;
     margin-right: 10px;
     color: #0f0d0d;
 }
@@ -207,4 +207,27 @@ button {
 .active {
     transform: translateX(0);
     opacity: 1;
+}
+/* servicess css */
+section {
+    margin-bottom: 30px;
+}
+.cards {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cards img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+.cards-content {
+    padding: 15px;
+}
+.images{
+    width: 30px;
+    height: 30px;
 }
