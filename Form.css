@@ -9,7 +9,71 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
+/* First Header Styles */
+header {
+    background-color: #c23b3b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
 
+/* Style for the logo */
+.logo img {
+    max-width: 100px;
+    border-radius: 68px
+}
+
+/* Style for the dropdowns */
+.dropdown select {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Style for the search bar */
+.search-bar input {
+    padding: 5px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Second Header Styles */
+.header-2 {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Navigation Styles */
+.header-2 nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-2 nav li {
+    margin: 0 15px;
+}
+
+.header-2 nav a {
+    text-decoration: none;
+    color: #fff;
+}
 .container {
     max-width: 400px;
     margin-top: 20px;
