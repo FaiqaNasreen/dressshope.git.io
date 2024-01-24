@@ -48,11 +48,17 @@
        
         <form action="/action_page.php" class="needs-validation" novalidate>
           <div class="form-group">
-            <label for="uname">Username:</label>
-            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+            <label for="uname">First Name:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter Lastname" name="uname" required>
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
+          <div class="form-group">
+          <label for="uname">Last Name:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Enter Lastname" name="uname" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
           <div class="form-group">
             <label for="uname">Uasr Email:</label>
             <input type="text" class="form-control" id="gmail" placeholder="Enter your Gmail" email="gmail" required>
@@ -66,18 +72,25 @@
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+            <label for="pwd">Address</label>
+            <input type="address" class="form-control" id="pwd" placeholder="Enter Address" name="pswd" required>
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div class="form-group form-check">
             <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" name="remember" required> I agree on all condition.
+              <input class="form-check-input" type="checkbox" name="remember" required> .Cash on Delivery (COD).
               <div class="valid-feedback">Valid.</div>
               <div class="invalid-feedback">Check this checkbox to continue.</div>
             </label>
           </div>
+          <!-- <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" required> I agree on all condition.
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Cash on delivery.</div>
+            </label>
+          </div> -->
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
